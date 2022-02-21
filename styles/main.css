@@ -1,1 +1,23 @@
 @import "https://style-ship.netlify.app/styles/main.css";
+
+/*************** Wishlist Page CSS ***************/
+
+.wishlist-page-wrapper {
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wishlist-items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 8rem;
+}
+
+.wishlist-items-wrapper .card {
+  width: 250px;
+  height: auto;
+}
+
