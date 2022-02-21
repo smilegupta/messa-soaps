@@ -21,3 +21,74 @@
   height: auto;
 }
 
+/*************** Auth Page CSS ***************/
+
+.auth-page-wrapper {
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  width: 100%
+}
+
+.auth-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 8rem;
+}
+
+.auth-page-wrapper .card{
+  width: 500px;
+}
+
+/*************** Product Page CSS ***************/
+
+.product-page-layout {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.product-display-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.product-display-wrapper .card {
+  width: 230px;
+  height: auto;
+}
+
+.sidebar-header-options-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-header-options{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.sidebar-header {
+  padding: 2rem 1.125rem 0rem 1.125rem;
+}
+
+.main-content {
+  padding: 2rem 2.5rem 0rem 2rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .product-page-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .main-content {
+    padding: 1rem 2rem;
+  }
+}
+
+

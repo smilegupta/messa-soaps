@@ -12,6 +12,7 @@
     <!-- External Imports -->
     <link rel="icon" href="https://img.icons8.com/color/48/000000/soap-dispenser.png" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../javascript/sidebar.js" defer></script>
     <script src="../javascript/navbar.js" defer></script>
 
     <!-- Page Title-->
@@ -65,9 +66,175 @@
             </div>
         </div>
     </nav>
-    <main>
-        I am product listing page
-    </main>
+    <section class="product-page-layout">
+        <div class="sidebar" id="sidebar-toggle">
+          <div class="sidebar-header mb-4" id="sidebar-header-wrapper">
+            <span class="sidebar-header-options-wrapper w-100"><span class="sidebar-header-options text-bold"> Filters </span> <span class="sidebar-header-options text-underline"> Clear</span></span>
+            <span class="sidebar-arrow">
+              <i class="fas fa-chevron-down cursor-pointer"></i>
+            </span>
+          </div>
+          <ul class="sidebar-items-wrapper">
+            <li class="list-non-bullet mb-3">
+                <div class="mx-5"> <h6 class="mb-3"> Ratings: </h6> </div>
+                <div class="mb-5 w-100">
+                  <div>
+                    <label class="radio-button-wrapper mx-5 my-2">4 Stars & above
+                      <input type="radio" checked="checked" name="radio">
+                      <span class="radio-button"></span>
+                    </label>
+                    <label class="radio-button-wrapper mx-5 my-2">3 Stars & above
+                      <input type="radio" name="radio">
+                      <span class="radio-button"></span>
+                    </label>
+                    <label class="radio-button-wrapper mx-5 my-2">2 Stars & above
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="radio-button"></span>
+                      </label>
+                      <label class="radio-button-wrapper mx-5 my-2">1 Stars & above
+                        <input type="radio" name="radio">
+                        <span class="radio-button"></span>
+                      </label>
+                  </div>
+                </div>
+              </li>
+            <li class="list-non-bullet mb-3">
+              <div class="mx-5"> <h6 class="mb-3"> Sort by: </h6> </div>
+              <div class="mb-5 w-100">
+                <div>
+                  <label class="radio-button-wrapper mx-5 my-2">Price - Low to High
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="radio-button"></span>
+                  </label>
+                  <label class="radio-button-wrapper mx-5 my-2">Price - High to Low
+                    <input type="radio" name="radio">
+                    <span class="radio-button"></span>
+                  </label>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="main-content">
+            <h4> Showing all products </h4>
+            <div class="product-display-wrapper">
+                <div class="card m-4">
+                    <div>
+                        <img src="https://image-dock-uploads-be.s3.ap-south-1.amazonaws.com/image.2022-02-20T20%3A35%3A36.591Z"
+                            alt="Saffron Moisturizer" class="img-responsive img-square" />
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="card-title mb-2 text-center">
+                            Saffron Moisturizer
+                        </div>
+    
+                        <div class="card-title mb-2 text-center">
+                            Rs. 300
+                        </div>
+    
+                    </div>
+                    <button class="btn btn-solid-primary w-100">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="card m-4">
+                    <div>
+                        <img src="https://image-dock-uploads-be.s3.ap-south-1.amazonaws.com/image.2022-02-20T20%3A35%3A36.591Z"
+                            alt="Saffron Moisturizer" class="img-responsive img-square" />
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="card-title mb-2 text-center">
+                            Saffron Moisturizer
+                        </div>
+    
+                        <div class="card-title mb-2 text-center">
+                            Rs. 300
+                        </div>
+    
+                    </div>
+                    <button class="btn btn-solid-primary w-100">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="card m-4">
+                    <div>
+                        <img src="https://image-dock-uploads-be.s3.ap-south-1.amazonaws.com/image.2022-02-20T20%3A35%3A36.591Z"
+                            alt="Saffron Moisturizer" class="img-responsive img-square" />
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="card-title mb-2 text-center">
+                            Saffron Moisturizer
+                        </div>
+    
+                        <div class="card-title mb-2 text-center">
+                            Rs. 300
+                        </div>
+    
+                    </div>
+                    <button class="btn btn-solid-primary w-100">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="card m-4">
+                    <div>
+                        <img src="https://image-dock-uploads-be.s3.ap-south-1.amazonaws.com/image.2022-02-20T20%3A35%3A36.591Z"
+                            alt="Saffron Moisturizer" class="img-responsive img-square" />
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="card-title mb-2 text-center">
+                            Saffron Moisturizer
+                        </div>
+    
+                        <div class="card-title mb-2 text-center">
+                            Rs. 300
+                        </div>
+    
+                    </div>
+                    <button class="btn btn-solid-primary w-100">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="card m-4">
+                    <div>
+                        <img src="https://image-dock-uploads-be.s3.ap-south-1.amazonaws.com/image.2022-02-20T20%3A35%3A36.591Z"
+                            alt="Saffron Moisturizer" class="img-responsive img-square" />
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="card-title mb-2 text-center">
+                            Saffron Moisturizer
+                        </div>
+    
+                        <div class="card-title mb-2 text-center">
+                            Rs. 300
+                        </div>
+    
+                    </div>
+                    <button class="btn btn-solid-primary w-100">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="card m-4">
+                    <div>
+                        <img src="https://image-dock-uploads-be.s3.ap-south-1.amazonaws.com/image.2022-02-20T20%3A35%3A36.591Z"
+                            alt="Saffron Moisturizer" class="img-responsive img-square" />
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="card-title mb-2 text-center">
+                            Saffron Moisturizer
+                        </div>
+    
+                        <div class="card-title mb-2 text-center">
+                            Rs. 300
+                        </div>
+    
+                    </div>
+                    <button class="btn btn-solid-primary w-100">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+      </section>
 </body>
 
 </html>
