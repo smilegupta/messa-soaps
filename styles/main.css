@@ -137,3 +137,23 @@
 }
 
 
+/*************** Cart Page CSS ***************/
+
+.cart-page-wrapper {
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart-items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 8rem;
+}
+
+.card-items-wrapper .card {
+  width: 300px;
+  height: auto;
+}
